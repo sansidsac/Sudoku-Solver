@@ -1,5 +1,7 @@
 # Sudoku Solver
 
+🌐 **Live Demo**: [https://sudoku-solver-ten-mocha.vercel.app/](https://sudoku-solver-ten-mocha.vercel.app/)
+
 ## About This Project
 
 While practicing Data Structures and Algorithms (DSA) on LeetCode, I came across the Sudoku solver problem in the backtracking section. After working through it and successfully solving the problem, I focused on optimizing the algorithm for better performance. Even though I knew building a Sudoku solver web application is quite common, I thought it would be a great opportunity to bring this optimized algorithm to life with a full-stack implementation. This project combines algorithmic problem-solving with practical web development skills.
