@@ -1,7 +1,7 @@
 import type { Board, SudokuSolution } from '../types/sudoku';
 import { boardToApiFormat } from '../utils/sudokuUtils';
 
-const API_BASE_URL = 'http://localhost:3000/api/sudoku';
+const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000/api/sudoku';
 
 export const solveSudoku = async (board: Board): Promise<SudokuSolution> => {
   const apiBoard = boardToApiFormat(board);
